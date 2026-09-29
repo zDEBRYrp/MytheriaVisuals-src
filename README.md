@@ -1,17 +1,14 @@
-# MytheriaVisuals 2.1.0 для Minecraft 1.21.4 — восстановленные исходники
+# MytheriaVisuals 2.1.0 для Minecraft 1.21.4
 
-Это восстановленные исходники MytheriaVisuals 2.1.0 для Minecraft 1.21.4.
-Исходный код был восстановлен из сохранившегося JAR-файла после потери оригинального проекта.
-
-Ссылка на исходники: [GitHub](https://github.com/zDEBRYrp/MytheriaVisuals-2.1.0-1.21.4-src-)
+Исходный код MytheriaVisuals 2.1.0 для Minecraft 1.21.4.
 
 Telegram-канал проекта: [@mytheriavisuals](https://t.me/mytheriavisuals)
 
 ## Структура
 
-- `src/main/java` — восстановленный Java-код;
+- `src/main/java` — Java-код проекта;
 - `src/main/resources` — ресурсы мода;
-- `tools/FixMixins.java` — утилита для исправления имён Minecraft в mixin-классах;
+- `tools/FixMixins.java` — утилита для обработки mixin-классов;
 - `libs/` — локальные бинарные зависимости, не публикуемые в Git.
 
 Часть классов была обфусцирована до потери исходников, поэтому отдельные имена и некоторые методы требуют ручного восстановления.
@@ -24,6 +21,4 @@ Telegram-канал проекта: [@mytheriavisuals](https://t.me/mytheriavisu
 .\gradlew.bat runClient
 ```
 
-Бинарные JAR-файлы намеренно исключены из Git через `.gitignore`.
-
-Это именно восстановленные исходники, поэтому часть имён классов и методов может оставаться обфусцированной, а отдельные участки требуют ручной доработки.
+Бинарные JAR-файлы исключены из Git через `.gitignore`.
