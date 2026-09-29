@@ -1,0 +1,36 @@
+plugins {
+    id 'fabric-loom' version '1.9-SNAPSHOT'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // Patched mod from libs/ (created by patch.bat from orig/).
+    // Conditional so that `gradlew` works before the patch step.
+    if (file('libs/Mytheria-2_1-free.jar').exists()) {
+        modRuntimeOnly ":Mytheria-2_1-free"
+    }
+}
+
+// The recovered sources are kept for reading and manual repair.  They are
+// intentionally excluded from the default runClient build because the input
+// JAR was obfuscated and some methods cannot be reconstructed into valid Java
+// automatically.  runClient uses the preserved binary from libs/ instead.
+sourceSets {
+    main {
+        java.setSrcDirs([])
+        resources.setSrcDirs([])
+    }
+}

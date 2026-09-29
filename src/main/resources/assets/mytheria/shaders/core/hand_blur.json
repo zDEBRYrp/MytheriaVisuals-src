@@ -1,0 +1,12 @@
+{
+    "vertex": "mytheria:core/hand_screen",
+    "fragment": "mytheria:core/blur_pass",
+    "samplers": [
+        { "name": "Sampler0" }
+    ],
+    "uniforms": [
+        { "name": "Direction", "type": "float", "count": 2, "values": [ 1.0, 0.0 ] },
+        { "name": "TexelSize", "type": "float", "count": 2, "values": [ 0.0, 0.0 ] },
+        { "name": "Radius", "type": "float", "count": 1, "values": [ 1.0 ] }
+    ]
+}

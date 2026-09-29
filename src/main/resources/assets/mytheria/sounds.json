@@ -1,0 +1,58 @@
+{
+  "module_on": {
+    "sounds": [
+      {
+        "name": "mytheria:module_on",
+        "stream": false
+      }
+    ]
+  },
+  "module_off": {
+    "sounds": [
+      {
+        "name": "mytheria:module_off",
+        "stream": false
+      }
+    ]
+  },
+  "clickgui_open": {
+    "sounds": [
+      {
+        "name": "mytheria:clickgui_open",
+        "stream": false
+      }
+    ]
+  },
+  "hit1": {
+    "sounds": [
+      {
+        "name": "mytheria:hit1",
+        "stream": false
+      }
+    ]
+  },
+  "hit2": {
+    "sounds": [
+      {
+        "name": "mytheria:hit2",
+        "stream": false
+      }
+    ]
+  },
+  "hit3": {
+    "sounds": [
+      {
+        "name": "mytheria:hit3",
+        "stream": false
+      }
+    ]
+  },
+  "hit4": {
+    "sounds": [
+      {
+        "name": "mytheria:hit4",
+        "stream": false
+      }
+    ]
+  }
+}

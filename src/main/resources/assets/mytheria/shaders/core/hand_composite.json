@@ -1,0 +1,11 @@
+{
+    "vertex": "mytheria:core/hand_screen",
+    "fragment": "mytheria:core/hand_composite",
+    "samplers": [
+        { "name": "Sampler0" },
+        { "name": "Sampler1" }
+    ],
+    "uniforms": [
+        { "name": "Tint", "type": "float", "count": 4, "values": [ 1.0, 1.0, 1.0, 0.0 ] }
+    ]
+}

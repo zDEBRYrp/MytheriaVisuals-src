@@ -1,0 +1,15 @@
+{
+    "vertex": "mytheria:core/sky_blit",
+    "fragment": "mytheria:core/sky_blit",
+    "samplers": [
+        { "name": "Sampler0" }
+    ],
+    "uniforms": [
+        { "name": "uResolution", "type": "float", "count": 2, "values": [ 1920.0, 1080.0 ] },
+        { "name": "uFov", "type": "float", "count": 1, "values": [ 70.0 ] },
+        { "name": "uCamRight", "type": "float", "count": 3, "values": [ 1.0, 0.0, 0.0 ] },
+        { "name": "uCamUp", "type": "float", "count": 3, "values": [ 0.0, 1.0, 0.0 ] },
+        { "name": "uFogColor", "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+        { "name": "uFogAmount", "type": "float", "count": 1, "values": [ 0.0 ] }
+    ]
+}

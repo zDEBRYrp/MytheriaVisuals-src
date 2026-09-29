@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nesquik.mytheria.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractContainerScreenMixin",
+    "BossHealthOverlayAccessor",
+    "CameraMixin",
+    "ClientPacketListenerMixin",
+    "MouseHandlerMixin",
+    "MinecraftRenderTargetMixin",
+    "LivingEntityMixin",
+    "EntityRenderDispatcherMixin",
+    "EntityRendererNametagMixin",
+    "PlayerTabOverlayMixin",
+    "PauseScreenInvoker",
+    "PauseScreenMixin",
+    "ChatComponentMixin",
+    "ChatSuggestionsMixin",
+    "CommandSuggestionsAccessor",
+    "ChatScreenMixin",
+    "LocalPlayerMixin",
+    "MinecraftAccessor",
+    "MultiPlayerGameModeMixin",
+    "StringDecomposerMixin",
+    "KeyboardHandlerMixin",
+    "AbstractClientPlayerMixin",
+    "ClientLevelDataMixin",
+    "FogRendererMixin",
+    "GameRendererMixin",
+    "GuiVignetteMixin",
+    "GuiGraphicsBatchMixin",
+    "ItemEntityRendererMixin",
+    "ItemEntityRenderStateMixin",
+    "ItemInHandRendererMixin",
+    "LivingEntityRendererMixin",
+    "ScreenEffectRendererMixin",
+    "GuiConfusionMixin",
+    "GuiEffectsMixin",
+    "HeartTypeMixin",
+    "LevelRendererMixin",
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+
+# Minecraft development/runtime data
+run/
+
+# Local/decompiler-only copies and reports
+decompiled-cfr/
+decompiled-kotlin/
+decompiled-vineflower/
+*.log
+
+# Built and bundled binaries are kept locally, not published as source
+libs/*.jar
+tools/*.jar
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+*.class
+out/
+bin/
+.DS_Store
+Thumbs.db
+
+# Local secrets/configuration
+*.local
+local.properties

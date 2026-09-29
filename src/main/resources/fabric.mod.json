@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "mytheria",
+  "version": "1.0-SNAPSHOT",
+  "name": "Mytheria 2.1",
+  "description": "Один из лучших визуальных клиентов",
+  "authors": [
+    "Nesquik"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mytheria/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "II1II1II1II1II1II1II1II1.I3_i2.l1_IIilI1IIlI11__I__IlI_liIIi"
+    ],
+    "client": [
+      "II1II1II1II1II1II1II1II1.I3_i2.il_l_li__li_i1lI1iII_I_iI_l1Ii1"
+    ],
+    "main": [
+      "II1II1II1II1II1II1II1II1.l3_I2.iiIIi_1l1_IllIi11iiil1l_1iIli"
+    ]
+  },
+  "mixins": [
+    "mytheria.mixins.json",
+    {
+      "config": "mytheria.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/dbus-java-core-4.3.1.jar"
+    },
+    {
+      "file": "META-INF/jars/dbus-java-transport-native-unixsocket-4.3.1.jar"
+    },
+    {
+      "file": "META-INF/jars/kotlin-stdlib-1.9.0.jar"
+    }
+  ]
+}
