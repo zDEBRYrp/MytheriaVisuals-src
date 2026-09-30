@@ -12,8 +12,8 @@ in vec4 FragColor;
 out vec4 OutColor;
 
 void main() {
-    // Обводка внутренняя (StrokeStyle.Align.INSIDE у Aero): внешний контур — сама форма,
-    // внутренний — она же, ужатая на толщину со всех сторон.
+    // Обводка внутренняя (StrokeStyle.Align.INSIDE у Aero): внешний контур - сама форма,
+    // внутренний - она же, ужатая на толщину со всех сторон.
     float outerDistance = rdist1(LocalPx, SizePx, RadiusPx);
 
     vec2 innerSize = max(SizePx - vec2(Thickness * 2.0), vec2(0.0));

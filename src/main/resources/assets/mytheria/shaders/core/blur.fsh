@@ -7,7 +7,7 @@ in vec2 TexCoord;
 flat in vec2 SizePx;
 flat in float RadiusPx;
 flat in float Smoothness;
-in vec4 FragColor; // цвет подложки: rgb — тинт, a — насколько он подмешан
+in vec4 FragColor; // цвет подложки: rgb - тинт, a - насколько он подмешан
 
 uniform sampler2D Sampler0; // уже размытая копия кадра
 uniform float Saturation;
@@ -24,7 +24,7 @@ void main() {
     float luma = dot(blurred, vec3(0.2126, 0.7152, 0.0722));
     blurred = mix(vec3(luma), blurred, Saturation) * (1.0 + Intensity);
 
-    // Честное смешение как в backdrop_blur Aero: альфа цвета — доля тинта,
+    // Честное смешение как в backdrop_blur Aero: альфа цвета - доля тинта,
     // а не прозрачность панели, поэтому размытие остаётся видимым.
     vec3 tinted = mix(blurred, FragColor.rgb, clamp(FragColor.a, 0.0, 1.0));
 

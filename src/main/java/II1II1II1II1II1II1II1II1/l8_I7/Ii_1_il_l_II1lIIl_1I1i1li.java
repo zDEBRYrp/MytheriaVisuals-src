@@ -177,7 +177,7 @@ public final class Ii_1_il_l_II1lIIl_1I1i1li extends lil11iliIlliiiliii1I11 {
             var10002 = var5.getDescription();
             var10003 = null;
             Thread.currentThread().hashCode();
-            var10002 = " — " + var10002;
+            var10002 = " - " + var10002;
             var10003 = null;
             Thread.currentThread().hashCode();
             var10002 = class_2561.method_43470((String)var10002);

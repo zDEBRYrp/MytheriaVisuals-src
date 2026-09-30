@@ -5,7 +5,7 @@ in vec4 FragColor;
 
 uniform sampler2D Sampler0;
 uniform float Range; // distance field range of the msdf font texture
-uniform float Thickness; // сдвиг порога: > 0 — жирнее
+uniform float Thickness; // сдвиг порога: > 0 - жирнее
 uniform float Smoothness; // множитель мягкости края
 uniform bool Outline;
 uniform float OutlineThickness;

@@ -1,5 +1,5 @@
 // Распаковка вершинных атрибутов фигуры: обратная сторона ShapeFormat в Java.
-// Имя параметра намеренно не "packed" — это зарезервированное слово GLSL.
+// Имя параметра намеренно не "packed" - это зарезервированное слово GLSL.
 const float SHAPE_SIZE_SCALE = 4.0;
 const float SHAPE_RADIUS_SCALE = 8.0;
 const float SHAPE_THICKNESS_SCALE = 16.0;

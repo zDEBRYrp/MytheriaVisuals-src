@@ -5,7 +5,7 @@ in vec4 FragColor;
 
 uniform sampler2D Sampler0; // размытый кадр
 uniform sampler2D Sampler1; // руки, отрисованные отдельно на прозрачном фоне
-uniform vec4 Tint;          // rgb — цвет, a — сила окраски
+uniform vec4 Tint;          // rgb - цвет, a - сила окраски
 
 out vec4 OutColor;
 
